@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+  body {
+background-image: url("pattern-background-mobile.svg");
+background-size: contain;
+  }
+  .top-card-container{
+    width: 90%;
+    height: 210px;
+    background-image: url("illustration-hero.svg");
+    margin: auto;
+    margin-top: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bottom-card-container{
+    width: 90%;
+  }
