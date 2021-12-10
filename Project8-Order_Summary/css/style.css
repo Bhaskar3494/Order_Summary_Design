@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.desktop-image{
+  position: absolute;
+  z-index: -1;
+}
+.top-card-container{
+  width: 33%;
+  height: 220px;
+  background-color: hsl(245, 75%, 52%);
+  background-image: url("illustration-hero.svg");
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-repeat: no-repeat;
+}
+.bottom-card-container{
+  width: 33%;
+  height: auto;
+  background-color: white;
+  margin: auto;
+  margin-top: 0;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 5% 0;
+}
+.main-heading{
+  margin-top: 0;
+}
+.para-text{
+  margin: 0 10%;
+  font-size: 16px;
+  color: grey;
+}
+
+
+.annual-plan-section{
+  margin: 10%;
+  position: relative;
+  height: auto;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding-bottom: 25px;
+}
+.music-icon{
+  display: inline;
+  float: left;
+  margin: 25px 0 0 25px;
+}
+
+.plan-text-section{
+width: 75%;
+position: relative;
+margin-left: 85px;
+padding-top: 25px;
+}
+.plan-heading{
+width: 50%;
+margin: 0;
+}
+.plan-para-text{
+  font-size: 16px;
+  color: grey;
+  letter-spacing: 1.5px;
+  width: 50%;
+  margin: 0;
+}
+.link-section{
+position: absolute;
+width: 25%;
+right: 5px;
+top: 50%;
+}
+.change-link{
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+.change-link:hover{
+text-decoration: none;
+opacity: 0.75;
+}
+.bottom-container{
+  margin: 0 10% 0 10%;
+  position: relative;
+  height: auto;
+  text-align: center;
+}
+.proceed-btn{
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  border: 0;
+  width: 100%;
+  padding: 5% 0;
+  box-shadow: 5px 10px 15px 1px hsl(224, 23%, 55%);
+}
+.cancel-order-link{
+  text-decoration: none;
+  display: block;
+  margin-top: 7.5%;
+  font-size: 16px;
+  color: grey;
+  font-weight: 700;
+}
+.cancel-order-link:hover{
+  color: black;
+}
+.proceed-btn:hover{
+background-color: hsl(245, 75%, 52%);
+cursor: pointer;
+opacity: 0.75;
+}
+
+.attribution{
+  margin-top: 25px;
+}
